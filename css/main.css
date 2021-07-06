@@ -19,8 +19,9 @@ h2 {
 }
 .reso {
   color: #fa974f;
+  font-weight: 600;
 }
-.half-width {
+.headings {
   width: 37%;
   padding-left: 10%;
   padding-top: 200px;
@@ -38,3 +39,22 @@ h2 {
   font-weight: 800;
 }
 /** end hero-section **/
+
+/** about-us section **/
+.flexible-container {
+  display: flex;
+}
+.about-us {
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.half-width {
+  width: 45%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 95%;
+  height: auto;
+}
+/** about-us section **/
