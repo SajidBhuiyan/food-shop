@@ -55,7 +55,7 @@ footer {
   display: flex;
 }
 .about-us {
-  background-image: url(/images/about-us-bg.png);
+  background-color: whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px;
