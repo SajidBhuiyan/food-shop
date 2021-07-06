@@ -49,6 +49,12 @@ h2 {
   background-repeat: no-repeat;
   padding: 100px;
 }
+.about-us h1 {
+  font-size: 50px;
+}
+.about-us p {
+  font-size: 21px;
+}
 .half-width {
   width: 45%;
   padding-left: 5%;
@@ -57,4 +63,44 @@ h2 {
   width: 95%;
   height: auto;
 }
-/** about-us section **/
+/** end about-us section **/
+
+/** food-item section **/
+
+/** food-item section **/
+.our-item {
+  background-color: #fdfdfd;
+}
+.iteam-heading {
+  text-align: center;
+}
+.iteam-heading h1 {
+  font-size: 50px;
+}
+
+.item-card {
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.iteams {
+  width: 30%;
+  background-color: #ffffff;
+  margin-left: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.iteams img {
+  width: 90%;
+  border-radius: 40px;
+  padding: 5%;
+}
+.item-details {
+  padding: 2px 24px;
+}
+.item-details h3 {
+  font-size: 25px;
+}
+.item-details p {
+  font-size: 18px;
+}
