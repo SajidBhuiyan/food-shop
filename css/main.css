@@ -20,10 +20,12 @@ footer {
 
 /** start hero-section **/
 .hero-section {
-  background-image: url(/images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+}
+.hero-half-width {
+  width: 50%;
 }
 .reso {
   color: #fa974f;
@@ -53,7 +55,7 @@ footer {
   display: flex;
 }
 .about-us {
-  background-image: url(/images/about-us-bg.png);
+  background-image: url(/images/7.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px;
