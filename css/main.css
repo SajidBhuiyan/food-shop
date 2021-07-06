@@ -4,32 +4,37 @@ body {
   margin: 0;
   padding: 0;
 }
-/** End Global Style **/
-
 h1,
 h2 {
-  color: whitesmoke;
+  font-size: 45px;
 }
-.reso {
-  color: #fa974f;
-}
+/** End Global Style **/
 
+/** start hero-section **/
 .hero-section {
   background-image: url(/images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 70vh;
+  height: 100%;
+}
+.reso {
+  color: #fa974f;
 }
 .half-width {
-  width: 45%;
-  padding-left: 5%;
+  width: 37%;
+  padding-left: 10%;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-.half-width p {
-  color: white;
+.button {
+  margin-top: 45px;
 }
 .button-link {
   text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: #fa974f;
-  padding: 10px 30px;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 800;
 }
+/** end hero-section **/
