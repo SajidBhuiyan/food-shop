@@ -8,6 +8,14 @@ h1,
 h2 {
   font-size: 45px;
 }
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: white;
+  background-color: #0B0E17;;
+}
+
 /** End Global Style **/
 
 /** start hero-section **/
@@ -40,12 +48,13 @@ h2 {
 }
 /** end hero-section **/
 
-/** about-us section **/
+/** start about-us section **/
 .flexible-container {
   display: flex;
 }
 .about-us {
-  background-color: #efefef;
+  background-image: url(/images/about-us-bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 100px;
 }
@@ -62,14 +71,19 @@ h2 {
 .half-width img {
   width: 95%;
   height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 /** end about-us section **/
 
-/** food-item section **/
 
-/** food-item section **/
+/** start food-item section **/
 .our-item {
   background-color: #fdfdfd;
+}
+.our-item p {
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 .iteam-heading {
   text-align: center;
@@ -80,11 +94,11 @@ h2 {
 
 .item-card {
   background-color: white;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 14%;
 }
 .iteams {
-  width: 30%;
+  width: 23%;
+  align-content: center;
   background-color: #ffffff;
   margin-left: 50px;
   border-radius: 20px;
@@ -106,7 +120,7 @@ h2 {
 }
 /** end food-item section **/
 
-/** widget **/
+/** start widget **/
 .info-bar {
   text-align: center;
   background-color: white;
@@ -115,5 +129,5 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .info {
-  width: 33%;
-/** widget **/
+  width: 100%;
+/** end widget **/
